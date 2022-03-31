@@ -1,0 +1,500 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-bottom:54px;
+    background-color: rgb(216, 216, 216);
+    color: white;
+    background-image: url(logo/rino.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position-y: 170px;
+}
+header{
+    background-color: rgb(122, 122, 122);
+    position: relative;
+    height: 60px ;
+    width: 100%;
+    min-width: 450px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.tesci{
+    position: absolute;
+    right: 5px;
+    top:-4px;
+    width: 69px;
+    height: 64px;
+}
+.cont-ul{
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    position: absolute;
+    background-color: black;
+    border-right: white solid 2px;
+    border-left: white solid 2px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    padding: 20px;
+    transition: all 0.3s ease 0s ;
+}
+li:hover{
+    background-color: #008849;
+}
+.ul-second{
+    position: absolute;
+    display: none;
+    transform: translateY(10px);
+}
+.ul-second > li{
+    border-bottom: solid 1px #fff;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    width: 190px;
+    transform: translateX(-20px);
+    transform: translateY(10px);
+    padding: 20px;
+}
+.ul-second > li:hover{
+background-color: #008849;
+}
+.develop:hover > .ul-second{
+    display: block;
+}
+.ul-third{
+    position: absolute;
+    right: -3px;
+    top: 40%;
+    transform: translateX(121px);
+    display: none;
+    background-color: black;
+}
+.ul-third2{
+    position: absolute;
+    right: -3px;
+    top: 44%;
+    transform: translateX(121px);
+    display: none;
+    background-color: black;
+}
+.ul-third3{
+    position: absolute;
+    right: -10px;
+    top: 40%;
+    transform: translateX(121px);
+    display: none;
+    background-color: black;
+}
+.ul-fourt{
+    position: absolute;
+    right: 30px;
+    top: 30%;
+    transform: translateX(121px);
+    display: none;
+    background-color: black;
+}
+.ul-fourt2{
+    position: absolute;
+    right: -32px;
+    top: 35%;
+    transform: translateX(121px);
+    display: none;
+    background-color: black;
+}
+.ul-fourt3{
+    position: absolute;
+    right: -85px;
+    top: 35%;
+    transform: translateX(121px);
+    display: none;
+    background-color: black;
+}
+.ul-fourt4{
+    position: absolute;
+    right: -43px;
+    top: 35%;
+    transform: translateX(121px);
+    display: none;
+    background-color: black;
+}
+.ul_five{
+    position: absolute;
+    right: -38px;
+    top: 35%;
+    transform: translateX(121px);
+    display: none;
+    background-color: black;
+}
+.ul-third > li{
+  padding: 20px;
+  border-bottom: solid 1px #fff;  
+}
+.ul-third2 > li{
+    padding: 20px;
+    border-bottom: solid 1px #fff;  
+  }
+.ul-third3 > li{
+    padding: 20px;
+    border-bottom: solid 1px #fff;  
+  }
+.ul-fourt > li{
+    padding: 20px;
+    border-bottom: solid 1px #fff;    
+  }
+.ul-fourt2 > li {
+    padding: 20px;
+    border-bottom: solid 1px #fff;
+  }
+.ul-fourt3 > li{
+    padding: 20px;
+    border-bottom: solid 1px #fff;    
+  }
+.ul-fourt4 > li{
+    padding: 20px;
+    border-bottom: solid 1px #fff;    
+  }
+.ul_five > li{
+    padding: 20px;
+    border-bottom: solid 1px #fff;    
+  }
+.ul-fourt li a{
+  color: white;
+  text-decoration: none;
+  }
+.ul-third li a{
+  color: white;
+  text-decoration: none;
+}
+.ul-second li a{
+    color: white;
+    text-decoration: none;
+  }
+.ul-fourt2 li a{
+    color: white;
+    text-decoration: none;
+}
+.ul-fourt3 li a{
+    color: white;
+    text-decoration: none;
+    }
+.ul-fourt4 li a{
+    color: white;
+    text-decoration: none;
+    }
+.ul_five li a{
+    color: white;
+    text-decoration: none;
+    }
+.front:hover > .ul-third{
+    display: block;
+}
+.back:hover > .ul-third2{
+    display: block;
+}
+.reportes:hover > .ul-third3{
+    display: block;
+}
+.periodo:hover > .ul-fourt{
+    display: block;
+}
+.docentes:hover > .ul-fourt2{
+    display: block;
+}
+.pdf:hover > .ul-fourt3{
+    display: block;
+}
+.administrador:hover > .ul-fourt4{
+    display: block;
+}
+.reespaldo:hover > .ul_five{
+    display: block;
+}
+.form-reg-asesoria{ 
+    margin-top: -13px;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    width: 450px;
+    height: 455px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    color: rgb(35, 100, 35);
+    text-align: center;
+    font-size: 17px;
+    box-shadow: grey 10px 5px 10px 5px;
+    font-weight: bold;
+    background-color: rgb(214, 213, 213);
+    display: none;
+}
+.label_alumno{
+    margin-left: 29px;
+}
+.input_alumno{
+    width:200px;
+    height: 25px;
+}
+.input_matricula{
+    width: 200px; 
+    height: 25px;
+}
+.rep-mes, .rep-periodo, .form-mes-general, .form-mes-docente, .form-periodo-general, .form-periodo-docente, .est-mes, .est-año, .est-periodo, .est-genero, .form-alumnos, .form_imagen, .cambiar_pass, .cambiar_adm, .respaldo, .restablecerBD{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    width: 430px;
+    height: 220px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 17px;
+    position: absolute;
+    color: rgb(35, 100, 35);
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    box-shadow: grey 10px 5px 10px 5px;
+    background-color: rgb(214, 213, 213);
+    display: none;
+    
+}
+.consulta{ 
+    background-color: rgb(35, 100, 35);
+    color:white;
+    width: 50%;
+    height: 30px;
+    border-radius: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.consulta:hover{ 
+    cursor: pointer;
+    color: #7cbe02;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+}
+.reg-docentes{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    width: 430px;
+    height: 430px;
+    border: 2px solid #E1E1E1;
+    border-radius: 5px;
+    padding: 17px;
+    position: absolute;
+    color: rgb(35, 100, 35);
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    box-shadow: grey 5px 5px 5px 10px;
+    background-color: rgb(214, 213, 213);
+    display: none;
+}
+.inputnombredocente, .inputmatriculadocente, .inputcorreodocente, .inputcontraseñadocente{
+    width: 100%;
+    height: 30px;
+}
+.apellido1, .apellido2{
+    width: 49%;
+    height: 30px;
+    margin-top: 10px;
+}
+.consultadocente{
+    background-color: rgb(35, 100, 35);
+    color:white;
+    width: 50%;
+    height: 40px;
+    border-radius: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.consultadocente:hover{ 
+    cursor: pointer;
+    color: #7cbe02;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+}
+.titulo_bienvenida{
+    background-color: rgb(24, 24, 24);
+    right: 0;
+    margin-right: 0;
+    position: absolute;
+}
+.change_pass{
+    background-color: rgb(35, 100, 35);
+    color:white;
+    width: 50%;
+    height: 30px;
+    border-radius: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.change_pass:hover{ 
+    cursor: pointer;
+    color: #7cbe02;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+}
+.borrar_registros{
+    background-color: rgb(35, 100, 35);
+    color:white;
+    width: 50%;
+    height: 30px;
+    border-radius: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.borrar_registros:hover{ 
+    cursor: pointer;
+    color: #7cbe02;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+}
+.pass_input{
+    width: 75%;
+    height: 30px;
+}
+footer{
+    background-color: rgb(122, 122, 122);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    color: white;
+    bottom: 0;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.footer2{
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+    height: 50px; 
+}
+.footer_container h5{
+    margin-top: 12px;
+    text-align: center;
+}
+.tabla_docentes{
+   display: none;
+}
+table{
+    margin-top: 15px;
+    caption-side: top;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+th{
+    background-color: white;
+    color: black;
+    
+}
+caption{
+    background-color: rgba(40,65,120,1);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-style:inherit;
+    font-weight: bold;
+}
+td, th{
+    border: 2px solid black;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+th{
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+padding-right: 5px;
+}
+td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;  
+}
+
+.tabla_input1{
+    width: 130px;
+}
+.tabla_input2{
+    width: 120px;
+}
+.tabla_input3{
+    width: 110px;
+}
+.tabla_input4{
+    width: 130px;
+    
+}
+.tabla_input5{
+    width: 87px;  
+}
+.tabla_input6{
+    width: 150px;
+}
+.tabla_input7{
+    width: 92px;
+}
+.tabla_input8{
+
+    margin-top: 5px;
+    width: 100%;
+    background: grey;
+    color: white;
+    border-radius: 50px;
+    padding: 4px;
+    border: 2px solid black;
+}
+.tabla_input8:hover{
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+}
+
+.tabla_item_link{
+    background: red;
+    color: white;
+    border-radius: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-decoration: none;
+    border: 2px solid black;
+    margin-right: 1px;
+}
+.tabla_item_link:hover{
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+}
+
+.footer2{
+    background-color: red;
+    width: 100%;
+    height: 30px;
+}
+
+
+
+
